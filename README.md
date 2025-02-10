@@ -12,7 +12,7 @@ Download Julia from https://julialang.org/downloads/
 
 Make sure you are in the directory containing the `Project.toml` and `Manifest.toml` files. Then, in the Julia REPL run the following
 ```julia
-Using Pkg; # loads the Julia package manager
+using Pkg; # loads the Julia package manager
 Pkg.activate("."); # activates the environment defined by Project.toml
 Pkg.instantiate(); # installs dependencies defined by Manifest.toml
 ```
